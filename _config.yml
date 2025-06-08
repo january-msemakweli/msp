@@ -1,3 +1,40 @@
+# Site metadata
+title: "MSP Graduate Flowchart"
+description: "Employment status and support needs of graduates"
+author:
+  name: "January G. Msemakweli"
+  email: "your-email@example.com"  # Optional – replace or remove
+
+# Use an official GitHub Pages Jekyll theme
+theme: jekyll-theme-cayman
+
+# Markdown and rendering settings
 markdown: kramdown
 kramdown:
   input: GFM
+  syntax_highlighter: rouge
+
+# Defaults for pages
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      author_profile: false
+
+# Optional: include additional files/folders in the site
+# include:
+#   - assets
+
+# Optional: exclude files/folders from being processed
+# exclude:
+#   - README.md
+
+# Optional: If using a subpath (not needed here)
+# baseurl: "/msp"
+
+# Enable Jekyll plugins (only those supported by GitHub Pages)
+# plugins:
+#   - jekyll-feed
+#   - jekyll-sitemap
