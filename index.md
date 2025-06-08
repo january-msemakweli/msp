@@ -10,7 +10,23 @@ Key findings include:
 - **Data Completeness Issues**: Significant information gaps exist, with 154 incomplete entries requiring follow-up.
 - **Support Needs**: Prospective graduates primarily seek assistance with CV writing, job search strategies, and interview preparation.
 
-```mermaid
+---
+layout: default
+title: Graduate Employment Flowchart
+---
+
+# Graduate Employment Flowchart
+
+This flowchart illustrates graduate employment status and the types of support needed.
+
+<!-- Load Mermaid.js from CDN -->
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+</script>
+
+<!-- Mermaid chart container -->
+<pre class="mermaid">
 graph TD
     A[Graduate] --> B{Employment Status}
     B -->|32.4%| C[Employed]
@@ -33,7 +49,7 @@ graph TD
     M --> Q[LinkedIn/Profile Branding]
     M --> R[Networking Opportunities]
     M --> S[Entrepreneurship Guidance]
-```
+</pre>
 
 ## Employment Status Overview
 
