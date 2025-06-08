@@ -10,11 +10,6 @@ Key findings include:
 - **Data Completeness Issues**: Significant information gaps exist, with 154 incomplete entries requiring follow-up.
 - **Support Needs**: Prospective graduates primarily seek assistance with CV writing, job search strategies, and interview preparation.
 
----
-layout: default
-title: Graduate Employment Flowchart
----
-
 # Graduate Employment Flowchart
 
 This flowchart illustrates graduate employment status and the types of support needed.
@@ -139,7 +134,7 @@ These gaps indicate a need for a structured follow-up process to complete the da
 
 ## Recommendations for Supporting the Class of 2025
 
-```mermaid
+<pre class="mermaid">
 flowchart LR
     A[University Education] --> B[Field of Study]
     B --> C[STEM: 42.2%]
@@ -162,7 +157,7 @@ flowchart LR
     N --> Q[Entrepreneurship]
     N --> R[Public Sector]
     N --> S[Postgraduate Studies]
-```
+</pre>
 
 Based on our analysis, we recommend the following strategies to support the graduating class of 2025:
 
